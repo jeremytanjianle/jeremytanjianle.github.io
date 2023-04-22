@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration
-nav_order: 1
+title: Resume
+nav_order: 2
 ---
 ## Hello there
