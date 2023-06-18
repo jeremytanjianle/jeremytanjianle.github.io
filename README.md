@@ -1,7 +1,7 @@
 
 ![Avatar](./img/1st%20dp.jpg#avatar)
 <h1 align="center">Jeremy Tan Jianle</h1>
-<p align="center"> AI Engineer | Natural Language Processing | Trader </p>
+<p align="center"> AI Engineer | Natural Language Processing | Algorithmic Trader </p>
 <!-- <p align="center">
   <a href="https://github.com/jeremytanjianle">Github</a> •
   <a href="https://www.linkedin.com/in/jeremy-tan-jianle/">LinkedIn</a>
