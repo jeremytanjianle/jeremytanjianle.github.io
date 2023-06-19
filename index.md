@@ -48,7 +48,7 @@ Hey there, I'm Jeremy.
 I love solving hard problems in AI, NLP and in financial trading.  
 
 **Techstack:**  
-• Languages: Python, C#, R, AFL (Amibroker), Lite-C (Zorro)  
+• Languages: Python, C#, R, Lite-C (Zorro), Easylanguage / Powerlanguage, AFL (Amibroker)  
 • ML & AI: Pytorch, Pytorch-lightning, AllenNLP, Spacy, Prodigy, Tensorflow 2  
 • Databases: ElasticSearch, MongoDB, PostgreSQL, SAS  
 • Cloud: Google Cloud, Paperspace, Digital Ocean, Azure  
