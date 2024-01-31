@@ -92,6 +92,6 @@ My dissertation is on extracting cause-and-effect axioms from historical news to
 The model is explained below with an intuitive example.   
 I look forward to putting aside the time to fully productionize this model one day.  
 
-<!-- ![historian-explanation](./img/Stock-Historian-Explanation.png#fullblock) -->
+![historian-explanation](./img/Stock-Historian-Explanation.png#bigblock)
 
-<img src="./img/Stock-Historian-Explanation.png" width="90%" align="center">  
+<!-- <img src="./img/Stock-Historian-Explanation.png" width="90%" align="center">   -->
