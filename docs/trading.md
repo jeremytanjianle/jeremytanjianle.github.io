@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Hi there!
-title: Trading
+title: Live trading
 nav_order: 1
 ---
 <h1 align="center">Trading</h1>

@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Hi there!
-title: NLP in Finance
+title: NLP in finance
 nav_order: 2
 ---
 
