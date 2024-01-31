@@ -53,3 +53,17 @@ I love solving hard problems in AI, NLP and in financial trading.
 • Databases: ElasticSearch, MongoDB, PostgreSQL, SAS  
 • Cloud: Google Cloud, Paperspace, Digital Ocean, Azure  
 • Infrastructure: Docker, Gitlab, Github Actions  
+
+## Trading 
+
+<img src="img/LiveTradingResults.png" width="100%" align="center"/></a>  
+
+Trading systems achieved live trading results 34% returns over a 12 month period with a shallow ~6.5% drawdown and a profit factor of 1.34.  
+Simulations are updated yearly so there is some overlap. For now, I've ceased trading to focus on my current role.
+
+## NLP in Finance
+<img src="img/stock-historian.png" width="100%" align="center"/></a>  
+
+The potential for Natural Language Processing in finance is massive.  
+My dissertation is on crystallizing cause-and-effect axioms that can be used to navigate the future. 
+Example above demonstrates an intuitive usage of historical articles to trade incoming headlines. 
