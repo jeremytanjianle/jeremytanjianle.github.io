@@ -25,9 +25,16 @@ nav_order: 1
 
 <style>
   /* https://illtron.net/2019/03/styling-images-with-markdown/ */
-img[src$="#block"] {
+img[src$="#block45"] {
   display: block;
   margin: 0 auto;
+  max-width: 45%;
+}
+
+img[src$="#block75"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
 }
 
 img[src$="#avatar"] {
@@ -48,26 +55,36 @@ Hey there, I'm Jeremy.
 I love solving hard problems in AI, NLP and in financial trading.  
 
 **Techstack:**  
-• Languages: Python, C#, R, Lite-C (Zorro), Easylanguage / Powerlanguage, AFL (Amibroker)  
-• ML & AI: Pytorch, Pytorch-lightning, AllenNLP, Spacy, Prodigy, Tensorflow 2  
-• Databases: ElasticSearch, MongoDB, PostgreSQL, SAS  
-• Cloud: Google Cloud, Paperspace, Digital Ocean, Azure  
-• Infrastructure: Docker, Gitlab, Github Actions  
+• Languages: Python, C#, R, Easylanguage / Powerlanguage
+• ML & AI: Pytorch, AllenNLP, Spacy, Prodigy 
+• Databases: Clickhouse, ElasticSearch, MongoDB, PostgreSQL, TimescaleDB, QuestDB 
+• Cloud: Google Cloud, Paperspace, Azure  
+• Infrastructure: Docker, Gitlab, Github Actions, Dagster  
 
-<h2 align="center">Trading</h2>
 
-<img src="img/LiveTradingResults.png" width="100%" align="center"/>  
+---
 
-Trading systems achieved live trading returns of 34% returns over a 12 month period with a profit factor of 1.34 and a shallow drawdown of ~6.5%.  
-Simulations are updated yearly so there is some overlap. For now, I've ceased trading to focus on my current role.
+
+<h2 align="center">Financial AI</h2>
+
+My personal trading systems achieved live returns of 34% returns over a 12 month period with a profit factor of 1.34 and a shallow drawdown of ~6.5%.  
+For now, I've ceased trading to focus on my current role.
+
+<img src="img/LiveTradingResults.png" width="100%" align="center">  
+
+
+---
+
 
 <h2 align="center">NLP in Finance</h2>
 
-<img src="img/stock-historian-results.png" width="60%" align="center"/>  
-
-The potential for Natural Language Processing in finance is massive.  
+The potential for Natural Language Processing (NLP) in finance is massive.  
 My dissertation is on extracting cause-and-effect axioms from historical news that can be used to navigate the future. 
-The model is explained below with an intuitive example. 
+
+![historian-returns](./img/stock-historian-results.png#block45)
+
+The model is explained below with an intuitive example.   
 Certain of how informative such information can be, I look forward to putting aside the time to fully productionize this model one day.  
 
-<img src="img/Stock-Historian-Explanation.png" width="100%" align="center"/>
+![historian-explanation](./img/Stock-Historian-Explanation.png#block75)
+
