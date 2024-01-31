@@ -62,37 +62,8 @@ Hey there, I'm Jeremy.
 I love solving hard problems in AI, NLP and in financial trading.  
 
 **Techstack:**  
-• Languages: Python, C#, R, Easylanguage / Powerlanguage
-• ML, AI & Datascience: Pytorch, AllenNLP, Spacy, Prodigy, Plotly, Dash, Streamlit
-• Databases: Clickhouse, ElasticSearch, MongoDB, PostgreSQL, TimescaleDB, QuestDB 
-• Cloud: Google Cloud, Paperspace, Azure  
-• Infrastructure: Docker, Gitlab, Github Actions, Dagster  
-
-
----
-
-
-<h2 align="center">Trading</h2>
-
-Personal trading systems achieved live returns of 34% returns over a 12 month period with a profit factor of 1.34 and a shallow drawdown of ~6.5%.  
-For now, I've ceased trading to focus on my current role.
-
-<img src="img/LiveTradingResults.png" width="100%" align="center">  
-
-
----
-
-
-<h2 align="center">NLP in Finance</h2>
-
-The potential for Natural Language Processing (NLP) in finance is massive.  
-My dissertation is on extracting cause-and-effect axioms from historical news to help navigate the future. 
-
-![historian-returns](./img/stock-historian-results.png#smallblock)
-
-The model is explained below with an intuitive example.   
-I look forward to putting aside the time to fully productionize this model one day.  
-
-![historian-explanation](./img/Stock-Historian-Explanation.png#bigblock)
-
-<!-- <img src="./img/Stock-Historian-Explanation.png" width="90%" align="center">   -->
+• Languages: Python, C#, R, Easylanguage / Powerlanguage  
+• ML, AI & Datascience: Pytorch, AllenNLP, Spacy, Prodigy, Plotly, Dash, Streamlit  
+• Databases: Clickhouse, ElasticSearch, MongoDB, PostgreSQL, TimescaleDB, QuestDB   
+• Cloud: Google Cloud, Paperspace, Azure   
+• Infrastructure: Docker, Gitlab, Github Actions, Dagster   
