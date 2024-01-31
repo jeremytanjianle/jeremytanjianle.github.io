@@ -3,6 +3,7 @@ title: Hi there!
 layout: home
 nav_order: 1
 has_children: true
+has_toc: false
 ---
 
 ![Avatar](./img/1st%20dp.jpg#avatar)
