@@ -25,16 +25,16 @@ nav_order: 1
 
 <style>
   /* https://illtron.net/2019/03/styling-images-with-markdown/ */
-img[src$="#block45"] {
+img[src$="#block60"] {
   display: block;
   margin: 0 auto;
-  max-width: 45%;
+  max-width: 60%;
 }
 
-img[src$="#block75"] {
+img[src$="#block85"] {
   display: block;
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 85%;
 }
 
 img[src$="#avatar"] {
@@ -56,7 +56,7 @@ I love solving hard problems in AI, NLP and in financial trading.
 
 **Techstack:**  
 • Languages: Python, C#, R, Easylanguage / Powerlanguage
-• ML & AI: Pytorch, AllenNLP, Spacy, Prodigy 
+• ML, AI & Datascience: Pytorch, AllenNLP, Spacy, Prodigy, Plotly, Dash, Streamlit
 • Databases: Clickhouse, ElasticSearch, MongoDB, PostgreSQL, TimescaleDB, QuestDB 
 • Cloud: Google Cloud, Paperspace, Azure  
 • Infrastructure: Docker, Gitlab, Github Actions, Dagster  
@@ -81,10 +81,10 @@ For now, I've ceased trading to focus on my current role.
 The potential for Natural Language Processing (NLP) in finance is massive.  
 My dissertation is on extracting cause-and-effect axioms from historical news that can be used to navigate the future. 
 
-![historian-returns](./img/stock-historian-results.png#block45)
+![historian-returns](./img/stock-historian-results.png#block60)
 
 The model is explained below with an intuitive example.   
 Certain of how informative such information can be, I look forward to putting aside the time to fully productionize this model one day.  
 
-![historian-explanation](./img/Stock-Historian-Explanation.png#block75)
+![historian-explanation](./img/Stock-Historian-Explanation.png#block85)
 
