@@ -54,16 +54,20 @@ I love solving hard problems in AI, NLP and in financial trading.
 • Cloud: Google Cloud, Paperspace, Digital Ocean, Azure  
 • Infrastructure: Docker, Gitlab, Github Actions  
 
-## Trading 
+<h2 align="center">Trading</h2>
 
-<img src="img/LiveTradingResults.png" width="100%" align="center"/></a>  
+<img src="img/LiveTradingResults.png" width="100%" align="center"/>  
 
-Trading systems achieved live trading results 34% returns over a 12 month period with a shallow ~6.5% drawdown and a profit factor of 1.34.  
+Trading systems achieved live trading returns of 34% returns over a 12 month period with a profit factor of 1.34 and a shallow drawdown of ~6.5%.  
 Simulations are updated yearly so there is some overlap. For now, I've ceased trading to focus on my current role.
 
-## NLP in Finance
-<img src="img/stock-historian.png" width="100%" align="center"/></a>  
+<h2 align="center">NLP in Finance</h2>
+
+<img src="img/stock-historian-results.png" width="60%" align="center"/>  
 
 The potential for Natural Language Processing in finance is massive.  
-My dissertation is on crystallizing cause-and-effect axioms that can be used to navigate the future. 
-Example above demonstrates an intuitive usage of historical articles to trade incoming headlines. 
+My dissertation is on extracting cause-and-effect axioms from historical news that can be used to navigate the future. 
+The model is explained below with an intuitive example. 
+Certain of how informative such information can be, I look forward to putting aside the time to fully productionize this model one day.  
+
+<img src="img/Stock-Historian-Explanation.png" width="100%" align="center"/>
