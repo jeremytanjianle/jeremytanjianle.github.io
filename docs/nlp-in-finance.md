@@ -5,7 +5,7 @@ title: NLP in finance
 nav_order: 2
 ---
 
-<h1 align="center">NLP in Finance</h1>
+<h1 align="center">NLP in finance</h1>
 
 The potential for Natural Language Processing (NLP) in finance is massive.  
 My dissertation is on extracting cause-and-effect axioms from historical news to help navigate the future. 
