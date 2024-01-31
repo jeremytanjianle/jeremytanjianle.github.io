@@ -10,12 +10,12 @@ nav_order: 2
 The potential for Natural Language Processing (NLP) in finance is massive.  
 My dissertation is on extracting cause-and-effect axioms from historical news to help navigate the future. 
 
-![historian-returns](./img/stock-historian-results.png#smallblock)
+![historian-returns](../img/stock-historian-results.png#smallblock)
 
 The model is explained below with an intuitive example.   
 I look forward to putting aside the time to fully productionize this model one day.  
 
-![historian-explanation](./img/Stock-Historian-Explanation.png#bigblock)
+![historian-explanation](../img/Stock-Historian-Explanation.png#bigblock)
 
 <!-- <img src="./img/Stock-Historian-Explanation.png" width="90%" align="center">   -->
 
