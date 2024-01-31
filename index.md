@@ -25,16 +25,16 @@ nav_order: 1
 
 <style>
   /* https://illtron.net/2019/03/styling-images-with-markdown/ */
-img[src$="#block60"] {
+img[src$="#smallblock"] {
   display: block;
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 70%;
 }
 
-img[src$="#block85"] {
+img[src$="#bigblock"] {
   display: block;
   margin: 0 auto;
-  max-width: 85%;
+  max-width: 95%;
 }
 
 img[src$="#avatar"] {
@@ -81,10 +81,10 @@ For now, I've ceased trading to focus on my current role.
 The potential for Natural Language Processing (NLP) in finance is massive.  
 My dissertation is on extracting cause-and-effect axioms from historical news to help navigate the future. 
 
-![historian-returns](./img/stock-historian-results.png#block60)
+![historian-returns](./img/stock-historian-results.png#smallblock)
 
 The model is explained below with an intuitive example.   
 I look forward to putting aside the time to fully productionize this model one day.  
 
-![historian-explanation](./img/Stock-Historian-Explanation.png#block85)
+![historian-explanation](./img/Stock-Historian-Explanation.png#bigblock)
 
