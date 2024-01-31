@@ -1,7 +1,8 @@
 ---
-title: Home
+title: Hi there!
 layout: home
 nav_order: 1
+has_children: true
 ---
 
 ![Avatar](./img/1st%20dp.jpg#avatar)
@@ -73,7 +74,7 @@ I love solving hard problems in AI, NLP and in financial trading.
 
 <h2 align="center">Trading</h2>
 
-My personal trading systems achieved live returns of 34% returns over a 12 month period with a profit factor of 1.34 and a shallow drawdown of ~6.5%.  
+Personal trading systems achieved live returns of 34% returns over a 12 month period with a profit factor of 1.34 and a shallow drawdown of ~6.5%.  
 For now, I've ceased trading to focus on my current role.
 
 <img src="img/LiveTradingResults.png" width="100%" align="center">  
