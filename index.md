@@ -37,6 +37,12 @@ img[src$="#bigblock"] {
   max-width: 95%;
 }
 
+img[src$="#fullblock"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 img[src$="#avatar"] {
   display: block;
   margin: 0 auto;
@@ -65,7 +71,7 @@ I love solving hard problems in AI, NLP and in financial trading.
 ---
 
 
-<h2 align="center">Financial AI</h2>
+<h2 align="center">Trading</h2>
 
 My personal trading systems achieved live returns of 34% returns over a 12 month period with a profit factor of 1.34 and a shallow drawdown of ~6.5%.  
 For now, I've ceased trading to focus on my current role.
@@ -86,5 +92,6 @@ My dissertation is on extracting cause-and-effect axioms from historical news to
 The model is explained below with an intuitive example.   
 I look forward to putting aside the time to fully productionize this model one day.  
 
-![historian-explanation](./img/Stock-Historian-Explanation.png#bigblock)
+<!-- ![historian-explanation](./img/Stock-Historian-Explanation.png#fullblock) -->
 
+<img src="./img/Stock-Historian-Explanation.png" width="90%" align="center">  
