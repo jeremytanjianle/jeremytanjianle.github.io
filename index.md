@@ -79,12 +79,12 @@ For now, I've ceased trading to focus on my current role.
 <h2 align="center">NLP in Finance</h2>
 
 The potential for Natural Language Processing (NLP) in finance is massive.  
-My dissertation is on extracting cause-and-effect axioms from historical news that can be used to navigate the future. 
+My dissertation is on extracting cause-and-effect axioms from historical news to help navigate the future. 
 
 ![historian-returns](./img/stock-historian-results.png#block60)
 
 The model is explained below with an intuitive example.   
-Certain of how informative such information can be, I look forward to putting aside the time to fully productionize this model one day.  
+I look forward to putting aside the time to fully productionize this model one day.  
 
 ![historian-explanation](./img/Stock-Historian-Explanation.png#block85)
 
