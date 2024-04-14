@@ -7,8 +7,10 @@ nav_order: 2
 
 <h1 align="center">Stock Historian: NLP-guided Macro Trading</h1>
 
-Ever wish you knew all of financial history to guide your next macro trade?
-Let NLP read history for you! 
-My dissertation is on extracting historical cause-and-effect from past financial events to help navigate the future. 
+Ever wish you knew all of financial history to guide your next macro trade?  
+Let NLP read history for you!   
+My dissertation is on extracting historical cause-and-effect from past financial events to help navigate the future.   
 
 <img src="../img/stockhistorianmeme.png" align="center" style="display:block;margin:0 auto;max-width:90%;">  
+
+[Read the full dissertation here](https://drive.google.com/file/d/1O-IrLAEKkzGE53Syp8GX7wrIJHeNtoKY/view?usp=drive_link)
