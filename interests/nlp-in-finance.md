@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 <h1 align="center">Stock Historian: NLP-guided Macro Trading</h1>
+>"Over roughly 50 years of global macro investing, I've learnt the hard way that the most important events that surprised me, did so because they never happened in my lifetime." ~ Ray Dalio
 
 Ever wish you knew all of financial history to guide your next macro trade?  
 Let NLP read history for you!   
