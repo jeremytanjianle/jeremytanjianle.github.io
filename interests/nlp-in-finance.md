@@ -12,7 +12,7 @@ Ever wish you knew all of financial history to guide your next macro trade?
 *Let AI read history for you!*   
  
 
-<img src="../img/stockhistorianmeme.png" align="center" style="display:block;margin:0 auto;max-width:95%;">  
+<img src="../img/stockhistorianmeme.png" align="center" style="display:block;margin:0 auto;max-width:85%;">  
   
 My masters-level dissertation is on extracting historical cause-and-effect from past financial events to help navigate the future.   
 [Read the full dissertation here](https://drive.google.com/file/d/1O-IrLAEKkzGE53Syp8GX7wrIJHeNtoKY/view?usp=drive_link)
