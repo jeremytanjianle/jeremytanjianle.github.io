@@ -5,21 +5,13 @@ title: NLP in finance
 nav_order: 2
 ---
 
-<h1 align="center">Stock Historian: NLP-guided Macro Trading</h1>
->"...the most important events that surprised me, did so because they never happened in my lifetime." ~ Ray Dalio
+<h1 align="center">Stock Historian: Studying the past to navigate the future</h1>
 
-Ever wish you knew all of financial history to guide your next macro trade?  
-*Let AI read history for you!*   
- 
+My masters-level dissertation is on extracting historical cause-and-effect from past financial events to help navigate the future.   
 
 <img src="../img/Stockhistorian meme - computershare.png" align="center" style="display:block;margin:0 auto;max-width:75%;">  
   
-My masters-level dissertation is on extracting historical cause-and-effect from past financial events to help navigate the future.   
-
 <h2 align="center">How does it work?</h2>  
-
-The system is explicit on cause-and-effect, so the whole architecture can be understood, adjusted and improved.
-
 <img src="../img/stock-historian.png" align="center" style="display:block;margin:0 auto;max-width:95%;">  
 
 [Read the full dissertation here](https://drive.google.com/file/d/1O-IrLAEKkzGE53Syp8GX7wrIJHeNtoKY/view?usp=drive_link)
