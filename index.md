@@ -68,5 +68,5 @@ I love solving hard problems in AI, NLP and in financial trading.
 • Datascience & ML: Polars, Numba, Dagster, Marimo, Plotly/Dash  
 • Finance: alphalens-reloaded, nautilus-trader, VectorBT.pro   
 • Cloud & Infrastructure: GCP, Cloudflare, Azure, FastAPI, Docker, n8n    
-• Databases: ElasticSearch, Clickhouse, PostgreSQL, TimescaleDB, Neo.js  
+• Databases: ElasticSearch, Clickhouse, PostgreSQL, TimescaleDB, Neo4j  
 • Other tools: Claude Code     
