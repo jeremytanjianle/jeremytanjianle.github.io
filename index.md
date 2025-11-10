@@ -67,6 +67,6 @@ I love solving hard problems in AI, NLP and in financial trading.
 • NLP: Pytorch, Huggingface, Langchain, Ollama, AllenNLP, Spacy, Prodigy  
 • Datascience & ML: Polars, Numba, Dagster, Marimo, Plotly/Dash  
 • Finance: alphalens-reloaded, nautilus-trader, VectorBT.pro   
-• Cloud & Infrastructure: GCP, Azure,  Docker, Portainer, n8n    
+• Cloud & Infrastructure: GCP, Cloudflare, Azure, FastAPI, Docker, n8n    
 • Databases: ElasticSearch, Clickhouse, PostgreSQL, TimescaleDB, Neo.js  
-• Other tools: Claude Code   
+• Other tools: Claude Code     
