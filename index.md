@@ -63,11 +63,10 @@ Hey there, I'm Jeremy.
 I love solving hard problems in AI, NLP and in financial trading.  
 
 **Techstack:**  
-• Languages: Python, C#  
+• Languages: Python, C#, learning Rust  
 • NLP: Pytorch, Huggingface, Langchain, Ollama, AllenNLP, Spacy, Prodigy  
 • Datascience & ML: Polars, Numba, Dagster, Marimo, Plotly/Dash  
-• Finance: alphalens-reloaded, nautilus-trader, VectorBT.pro   
-• Cloud & Infrastructure: GCP, Cloudflare, Azure, FastAPI, Docker, n8n    
+• Finance: alphalens-reloaded, VectorBT.pro   
+• Cloud & Infrastructure: GCP, Cloudflare, RunPod, Docker    
 • Databases: ElasticSearch, PostgreSQL, TimescaleDB, Neo4j  
-• MLOps: Polyaxon, Paperspace, ClearML, MLFlow  
-• Other tools: Claude Code     
+• MLOps: Paperspace, MLFlow, ClearML, Polyaxon  
