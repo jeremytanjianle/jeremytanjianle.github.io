@@ -5,11 +5,11 @@ const root = path.resolve(import.meta.dirname, '..');
 
 const jobs = [
   {
-    source: 'img/self-driving-hedge-fund.excalidraw',
+    source: 'assets/excalidraw/self-driving-hedge-fund.excalidraw',
     frames: [{ index: 0, output: 'public/img/self-driving-hedge-fund-architecture.svg' }],
   },
   {
-    source: 'img/adgen.excalidraw',
+    source: 'assets/excalidraw/adgen.excalidraw',
     frames: [
       { index: 1, output: 'public/img/adgen-agent-architecture.svg' },
     ],
