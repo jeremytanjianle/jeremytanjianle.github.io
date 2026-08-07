@@ -357,10 +357,10 @@
     {
       "id": "arrow-human-campaign",
       "type": "arrow",
-      "x": 1422.1661405929462,
-      "y": 1514.8489349691665,
-      "width": 367.72587412756957,
-      "height": 9.838123465544413,
+      "x": 1326.16043877975,
+      "y": 1525.4450494127607,
+      "width": 271.72017231437326,
+      "height": 3.380054307664068,
       "angle": 0,
       "strokeColor": "#315efb",
       "backgroundColor": "transparent",
@@ -375,11 +375,11 @@
         "type": 2
       },
       "seed": 92003,
-      "version": 127,
-      "versionNonce": 1382330143,
+      "version": 181,
+      "versionNonce": 619962097,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093565030,
+      "updated": 1786106971525,
       "link": null,
       "locked": false,
       "points": [
@@ -388,8 +388,8 @@
           0
         ],
         [
-          -367.72587412756957,
-          9.838123465544413
+          -271.72017231437326,
+          3.380054307664068
         ]
       ],
       "lastCommittedPoint": null,
@@ -469,15 +469,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": "adgen-architecture-frame",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 92005,
-      "version": 53,
-      "versionNonce": 439661105,
+      "version": 57,
+      "versionNonce": 1556756433,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093552879,
+      "updated": 1786106975796,
       "link": null,
       "locked": false,
       "points": [
@@ -486,24 +484,34 @@
           0
         ],
         [
-          0,
-          45
-        ],
-        [
-          250,
-          45
-        ],
-        [
           250,
           100
         ]
       ],
       "lastCommittedPoint": null,
-      "startBinding": null,
-      "endBinding": null,
+      "startBinding": {
+        "elementId": "campaign-card",
+        "fixedPoint": [
+          0.723404255319149,
+          1
+        ],
+        "focus": 0,
+        "gap": 0
+      },
+      "endBinding": {
+        "elementId": "headline-card",
+        "fixedPoint": [
+          0.4722222222222222,
+          0
+        ],
+        "focus": 0,
+        "gap": 0
+      },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "index": "b4"
+      "index": "b4",
+      "elbowed": true,
+      "fixedSegments": null
     },
     {
       "id": "arrow-image-batch",
@@ -598,29 +606,27 @@
     {
       "id": "arrow-human-batch",
       "type": "arrow",
-      "x": 1631.5434085892255,
-      "y": 1588.7480774372987,
-      "width": 45.26936404014077,
-      "height": 140.2922814126523,
+      "x": 1535.199228824144,
+      "y": 1601.5584621015403,
+      "width": 3.85421272807298,
+      "height": 123.06998204366255,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
-      "strokeStyle": "dashed",
+      "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "groupIds": [],
       "frameId": "adgen-architecture-frame",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 92008,
-      "version": 352,
-      "versionNonce": 1902080831,
+      "version": 454,
+      "versionNonce": 366794961,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093565030,
+      "updated": 1786106971525,
       "link": null,
       "locked": false,
       "points": [
@@ -629,36 +635,28 @@
           0
         ],
         [
-          -8.350258488405188,
-          22.319560293575023
-        ],
-        [
-          -22.767691581676218,
-          60.960777164526235
-        ],
-        [
-          -38.06759781284495,
-          99.37991845854435
-        ],
-        [
-          -45.26936404014077,
-          140.2922814126523
+          3.85421272807298,
+          123.06998204366255
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "human-card",
-        "focus": -0.15180047846747563,
-        "gap": 6.400398523478771
+        "focus": 0.004457095631410048,
+        "gap": 5
       },
       "endBinding": {
         "elementId": "batch-card",
-        "focus": 0.18090137487626853,
-        "gap": 2.021005067831993
+        "focus": -0.008294425641831405,
+        "gap": 10.919703045004553
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "index": "b7"
+      "index": "b7",
+      "elbowed": false,
+      "fixedSegments": null,
+      "startIsSpecial": null,
+      "endIsSpecial": null
     },
     {
       "id": "arrow-batch-meta",
@@ -719,7 +717,7 @@
       "x": 1943.0329709727569,
       "y": 1910.3942699068168,
       "width": 389.947985317026,
-      "height": 217.93906342651644,
+      "height": 209.4734839037958,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -730,15 +728,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": "adgen-architecture-frame",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 92010,
-      "version": 257,
-      "versionNonce": 1866562257,
+      "version": 316,
+      "versionNonce": 29869407,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093610827,
+      "updated": 1786106910325,
       "link": null,
       "locked": false,
       "points": [
@@ -747,40 +743,48 @@
           0
         ],
         [
-          -29.026230780980086,
-          192.93906342651644
-        ],
-        [
-          -240.69289744764706,
-          217.93906342651644
+          0,
+          209.4734839037958
         ],
         [
           -389.947985317026,
-          209.55394613048406
+          209.4734839037958
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "meta-card",
         "focus": -0.21608854096369096,
-        "gap": 10
+        "gap": 10,
+        "fixedPoint": [
+          0.5689763248254887,
+          1.0291582157125234
+        ]
       },
       "endBinding": {
         "elementId": "evolution-card",
         "focus": -0.07197728790914507,
-        "gap": 16.666666666666515
+        "gap": 16.666666666666515,
+        "fixedPoint": [
+          1.025811331361673,
+          0.5523590317752678
+        ]
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "index": "b9"
+      "index": "b9",
+      "elbowed": true,
+      "fixedSegments": null,
+      "startIsSpecial": null,
+      "endIsSpecial": null
     },
     {
       "id": "arrow-evolution-loop",
       "type": "arrow",
-      "x": 930.7545324912899,
-      "y": 2115,
-      "width": 404.73461579117225,
-      "height": 495.35159261947547,
+      "x": 922.3400735251103,
+      "y": 2109.9,
+      "width": 418.2120854533231,
+      "height": 623.816723785777,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
@@ -791,15 +795,13 @@
       "opacity": 100,
       "groupIds": [],
       "frameId": "adgen-architecture-frame",
-      "roundness": {
-        "type": 2
-      },
+      "roundness": null,
       "seed": 92011,
-      "version": 240,
-      "versionNonce": 1948392465,
+      "version": 387,
+      "versionNonce": 2104602961,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093625639,
+      "updated": 1786106939365,
       "link": null,
       "locked": false,
       "points": [
@@ -808,38 +810,62 @@
           0
         ],
         [
-          -365.8205557919507,
-          -37.133146357019996
+          -418.2120854533231,
+          0
         ],
         [
-          -404.73461579117225,
-          -365.3025418135112
+          -418.2120854533231,
+          -623.816723785777
         ],
         [
-          -363.1804673400112,
-          -495.35159261947547
+          -366.51973991646605,
+          -623.816723785777
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "evolution-card",
         "focus": -0.28273283982200337,
-        "gap": 3.414458966179609
+        "gap": 3.414458966179609,
+        "fixedPoint": [
+          -0.008195595048955399,
+          0.5270499594556082
+        ]
       },
       "endBinding": {
         "elementId": "campaign-card",
         "focus": 0.7572005925392162,
-        "gap": 7.561715245086072
+        "gap": 7.561715245086072,
+        "fixedPoint": [
+          0.011136152396102987,
+          0.9980994993541866
+        ]
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "index": "c0"
+      "index": "c0",
+      "elbowed": true,
+      "fixedSegments": [
+        {
+          "index": 2,
+          "start": [
+            -418.46644286302256,
+            -490.25159261947556
+          ],
+          "end": [
+            -418.46644286302256,
+            -623.816723785777
+          ]
+        }
+      ],
+      "startIsSpecial": false,
+      "endIsSpecial": false
     },
     {
       "id": "human-card",
       "type": "rectangle",
-      "x": 1434.0890725284187,
-      "y": 1421.1634686456475,
+      "x": 1338.0833707152226,
+      "y": 1434.5543679314414,
       "width": 390,
       "height": 165,
       "angle": 0,
@@ -858,8 +884,8 @@
         "type": 3
       },
       "seed": 92012,
-      "version": 117,
-      "versionNonce": 1130096383,
+      "version": 171,
+      "versionNonce": 1928931601,
       "isDeleted": false,
       "boundElements": [
         {
@@ -871,7 +897,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1786093565030,
+      "updated": 1786106971524,
       "link": null,
       "locked": false,
       "index": "c1"
@@ -879,8 +905,8 @@
     {
       "id": "human-title",
       "type": "text",
-      "x": 1490.7684548526374,
-      "y": 1446.1634686456475,
+      "x": 1394.7627530394413,
+      "y": 1459.5543679314414,
       "width": 276.6412353515625,
       "height": 35,
       "angle": 0,
@@ -897,11 +923,11 @@
       "frameId": "adgen-architecture-frame",
       "roundness": null,
       "seed": 92013,
-      "version": 118,
-      "versionNonce": 1219277663,
+      "version": 172,
+      "versionNonce": 1464571569,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093565030,
+      "updated": 1786106971525,
       "link": null,
       "locked": false,
       "text": "🧑‍💼  Human overseer",
@@ -918,8 +944,8 @@
     {
       "id": "human-body",
       "type": "text",
-      "x": 1469.0890725284187,
-      "y": 1496.1634686456475,
+      "x": 1373.0833707152226,
+      "y": 1509.5543679314414,
       "width": 320,
       "height": 60,
       "angle": 0,
@@ -936,11 +962,11 @@
       "frameId": "adgen-architecture-frame",
       "roundness": null,
       "seed": 92014,
-      "version": 111,
-      "versionNonce": 547155839,
+      "version": 165,
+      "versionNonce": 1541904529,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093565030,
+      "updated": 1786106971525,
       "link": null,
       "locked": false,
       "text": "Manages campaign\nFinal touches in Canva",
@@ -975,8 +1001,8 @@
         "type": 3
       },
       "seed": 92015,
-      "version": 55,
-      "versionNonce": 1286222737,
+      "version": 56,
+      "versionNonce": 1778663775,
       "isDeleted": false,
       "boundElements": [
         {
@@ -986,9 +1012,13 @@
         {
           "id": "arrow-human-campaign",
           "type": "arrow"
+        },
+        {
+          "id": "arrow-campaign-headline",
+          "type": "arrow"
         }
       ],
-      "updated": 1786093552879,
+      "updated": 1786106975795,
       "link": null,
       "locked": false,
       "index": "c4"
@@ -1311,11 +1341,16 @@
         "type": 3
       },
       "seed": 92024,
-      "version": 53,
-      "versionNonce": 1122554495,
+      "version": 54,
+      "versionNonce": 1575034353,
       "isDeleted": false,
-      "boundElements": [],
-      "updated": 1786093552879,
+      "boundElements": [
+        {
+          "id": "arrow-campaign-headline",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1786106975796,
       "link": null,
       "locked": false,
       "index": "d3"
@@ -1623,8 +1658,8 @@
     {
       "id": "label-brief",
       "type": "text",
-      "x": 932.3400735251103,
-      "y": 1635,
+      "x": 957.7341611342147,
+      "y": 1635.7468849296797,
       "width": 185,
       "height": 25,
       "angle": 0,
@@ -1639,11 +1674,11 @@
       "frameId": "adgen-architecture-frame",
       "roundness": null,
       "seed": 92033,
-      "version": 54,
-      "versionNonce": 1187666033,
+      "version": 71,
+      "versionNonce": 1067414929,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1786093552879,
+      "updated": 1786106978844,
       "link": null,
       "locked": false,
       "text": "campaign brief",

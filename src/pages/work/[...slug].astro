@@ -36,6 +36,9 @@ const categoryLabel = entry.data.category === 'ai' ? 'AI & Automations' : 'Finan
 	.prose :global(h2) { font-size: var(--text-2xl); }
 	.prose :global(h3) { font-size: var(--text-xl); }
 	.prose :global(img) { width: 100%; margin-block: 1.5rem; border: 1px solid var(--gray-800); border-radius: 1rem; box-shadow: var(--shadow-sm); }
+	.prose :global(.diagram) { width: min(68rem, calc(100vw - 2rem)); margin: 2.5rem 50% 0; transform: translateX(-50%); }
+	.prose :global(.diagram img) { display: block; margin: 0; background: #fff; }
+	.prose :global(.diagram figcaption) { max-width: 68ch; margin: .75rem auto 0; color: var(--gray-400); font-size: var(--text-sm); text-align: center; }
 	.prose :global(a) { text-underline-offset: .25em; }
 	.prose :global(blockquote) { padding-left: 1.25rem; border-left: .2rem solid var(--accent-regular); color: var(--gray-0); font-family: var(--font-brand); font-size: var(--text-xl); }
 	@media (min-width: 50em) { .details { flex-direction: row; justify-content: space-between; align-items: start; gap: 3rem; } .cover { border-radius: 1.75rem; } }
