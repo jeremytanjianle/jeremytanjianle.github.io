@@ -1,0 +1,6 @@
+---
+import { getCollection } from 'astro:content';
+import Grid from '../components/Grid.astro'; import Hero from '../components/Hero.astro'; import PortfolioPreview from '../components/PortfolioPreview.astro'; import BaseLayout from '../layouts/BaseLayout.astro';
+const projects = (await getCollection('work')).filter((p) => p.data.category === 'ai').sort((a, b) => a.data.order - b.data.order);
+---
+<BaseLayout title="AI & Automations · Jeremy Tan" description="AI systems and automation projects by Jeremy Tan."><div class="stack gap-20"><main class="wrapper stack gap-8"><Hero title="AI & Automations" tagline="Workspaces and autonomous systems designed to turn complex processes into useful, repeatable workflows." align="start" /><Grid>{projects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid></main></div></BaseLayout>

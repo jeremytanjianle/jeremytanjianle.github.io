@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import Skills from '../components/Skills.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const projects = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order);
+const aiProjects = projects.filter((project) => project.data.category === 'ai');
+const financeProjects = projects.filter((project) => project.data.category === 'finance');
+---
+<BaseLayout>
+	<div class="stack gap-20 lg:gap-48">
+		<div class="wrapper stack gap-8 lg:gap-20">
+			<header class="hero-shell">
+				<Hero title="AI for business and financial markets" tagline="I'm Jeremy Tan — building practical tools, research workflows and autonomous systems." align="start" />
+				<img alt="Jeremy Tan" width="480" height="620" src="/img/1st%20dp.jpg" />
+			</header>
+			<Skills />
+		</div>
+
+		<main class="wrapper stack gap-20 lg:gap-30">
+			<section class="section">
+				<header class="section-header"><div><p class="eyebrow">01 · AI & Automations</p><h2>Tireless systems behind the business</h2></div><a href="/ai-automations/">View AI work <span aria-hidden="true">→</span></a></header>
+				<Grid>{aiProjects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid>
+			</section>
+			<section class="section">
+				<header class="section-header"><div><p class="eyebrow">02 · Finance</p><h2>Research into live systems</h2></div><a href="/finance/">View finance work <span aria-hidden="true">→</span></a></header>
+				<Grid>{financeProjects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid>
+			</section>
+		</main>
+	</div>
+</BaseLayout>
+<style>
+	.hero-shell { display: flex; flex-direction: column; align-items: center; gap: 2rem; }
+	.hero-shell img { width: 100%; max-height: 28rem; aspect-ratio: 5 / 4; object-fit: cover; object-position: center 25%; border: 1px solid var(--gray-800); border-radius: 1.25rem; box-shadow: var(--shadow-md); filter: saturate(.82); }
+	.section { display: grid; gap: 2.5rem; }
+	.section-header { display: flex; flex-direction: column; gap: 1rem; }
+	.section-header h2 { font-size: var(--text-2xl); }
+	.section-header > a { align-self: flex-start; color: var(--gray-200); text-underline-offset: .25em; }
+	.eyebrow { margin-bottom: .65rem; color: var(--accent-dark); font-size: var(--text-sm); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+	@media (min-width: 50em) {
+		.hero-shell { display: grid; grid-template-columns: 6fr 4fr; gap: 3.75rem; padding-inline: 2.5rem; }
+		.hero-shell img { max-height: none; aspect-ratio: 3 / 4; border-radius: 2.5rem; }
+		.section-header { flex-direction: row; justify-content: space-between; align-items: end; }
+		.section-header h2 { font-size: var(--text-4xl); }
+		.section-header > a { align-self: auto; margin-bottom: .45rem; }
+	}
+</style>

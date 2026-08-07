@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const projects = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order);
+---
+<BaseLayout title="Projects · Jeremy Tan" description="AI, automation and finance projects by Jeremy Tan.">
+	<div class="stack gap-20"><main class="wrapper stack gap-8"><Hero title="Projects" tagline="Applied AI and systematic finance, from early research to live systems." align="start" /><Grid>{projects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid></main></div>
+</BaseLayout>

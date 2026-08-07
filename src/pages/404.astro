@@ -1,0 +1,8 @@
+---
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Page not found · Jeremy Tan" description="This page could not be found.">
+	<main class="wrapper"><Hero title="Page not found" tagline="The page may have moved. Head back home or explore the current projects." /><p><a href="/">Return home</a></p></main>
+</BaseLayout>
+<style>main { display: grid; justify-items: center; gap: 2rem; padding-block: 5rem; text-align: center; } a { text-underline-offset: .25em; }</style>
