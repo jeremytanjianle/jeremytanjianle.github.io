@@ -1,6 +1,6 @@
 ---
 title: Stock Historian
-description: Masters-level research into extracting historical cause and effect from financial events to help navigate future markets events
+description: Masters-level research into extracting historical cause and effect from financial events to help navigate the future.
 publishDate: 2023-01-01
 category: finance
 status: Research

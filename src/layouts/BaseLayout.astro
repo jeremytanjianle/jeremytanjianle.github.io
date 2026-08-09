@@ -15,7 +15,6 @@ const { title, description } = Astro.props;
 	</body>
 </html>
 <style>
-	.backgrounds { min-height: 100vh; isolation: isolate; background: radial-gradient(circle at 72% 0%, rgba(49,94,251,.10), transparent 28rem), radial-gradient(circle at 5% 38%, rgba(125,145,180,.08), transparent 24rem), var(--gray-999); }
-	:global(.theme-dark) .backgrounds { background: radial-gradient(circle at 72% 0%, rgba(95,131,255,.12), transparent 28rem), radial-gradient(circle at 5% 38%, rgba(60,75,100,.10), transparent 24rem), var(--gray-999); }
+	.backgrounds { min-height: 100vh; isolation: isolate; background: var(--gray-999); }
 	@media (forced-colors: active) { .backgrounds { background: none; } }
 </style>

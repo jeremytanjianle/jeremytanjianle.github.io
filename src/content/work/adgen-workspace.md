@@ -1,6 +1,6 @@
 ---
 title: AdGen Workspace
-description: A new AI workspace for turning advertising ideas into structured, repeatable creative workflows.
+description: An AI workspace that generates, reviews and prepares Meta advertising variants through a multi-agent workflow.
 publishDate: 2026-08-06
 category: ai
 order: 1
@@ -12,7 +12,7 @@ img: /img/adgen-excalidraw.png
 
 Generate striking images and enhance textual hooks... **iteratively**. 
 
-The full creative loop: moving from an initial idea to a payload of assets to Meta, without across multiple tools. Agentic review and iteration cycles enable creative experimentation en masse.  
+The full creative loop moves from an initial idea to a production-ready set of assets for Meta without switching between multiple tools. Automated review and iteration make it possible to test a massive array of creative directions while keeping a human in control.
 
 ## Multi-agent architecture
 
