@@ -61,9 +61,7 @@ function renderText(element) {
   const lineHeight = element.fontSize * (element.lineHeight ?? 1.25);
   const font = element.fontFamily === 3
     ? 'Cascadia Code, Consolas, monospace'
-    : element.fontFamily === 2
-      ? 'Arial, Helvetica, sans-serif'
-      : 'Comic Sans MS, Segoe UI Emoji, cursive';
+    : 'Arial, Helvetica, sans-serif';
   const tspans = lines.map((line, index) => `<tspan x="${n(x)}" dy="${index === 0 ? 0 : n(lineHeight)}">${esc(line)}</tspan>`).join('');
   return `<text x="${n(x)}" y="${n(element.y + element.fontSize)}" text-anchor="${anchor}" fill="${paint(element.strokeColor)}" font-family="${font}" font-size="${element.fontSize}" opacity="${opacity(element)}"${rotation(element)}>${tspans}</text>`;
 }
