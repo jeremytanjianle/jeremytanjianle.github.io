@@ -6,26 +6,13 @@ category: ai
 order: 1
 tags: [AI, Automation, Creative tooling]
 img: /img/adgen-excalidraw.png
-img_alt: AdGen workspace interface flowing into a finished advertising creative.
 ---
 
 ## A workspace for AI-assisted advertising
 
-AdGen Workspace is a new project exploring how AI can support the full creative loop: moving from an initial idea to generated material, review and iteration inside one coherent workspace.
+Generate striking images and enhance textual hooks... **iteratively**. 
 
-The project is currently in development. More detail, working examples and design decisions will be added here as the system takes shape.
-
-<figure class="diagram">
-  <img src="/img/adgen-excalidraw.png" alt="AdGen workspace interface flowing into a finished advertising creative." loading="lazy" decoding="async" />
-  <figcaption>The workspace turns structured campaign exploration into finished creative.</figcaption>
-</figure>
-
-## Current focus
-
-- Structured workflows rather than isolated prompts
-- Human review at meaningful decision points
-- Reusable context across creative iterations
-- Clear provenance for generated outputs
+The full creative loop: moving from an initial idea to a payload of assets to Meta, without across multiple tools. Agentic review and iteration cycles enable creative experimentation en masse.  
 
 ## Multi-agent architecture
 
