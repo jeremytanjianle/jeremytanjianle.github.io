@@ -12,10 +12,6 @@ img_alt: Trademate financial research interface.
 
 ## Financial research at speed
 
-Trademate brings common research tasks into one Python toolkit:
-
-- Hypothesis testing
-- Interactive visualisations
-- Interpretable machine learning
+Hypothesis tests | Interactive visualisations | Interpretable machine learning  
 
 [Read the Trademate documentation](https://vinitrinh.gitlab.io/trademate/).
