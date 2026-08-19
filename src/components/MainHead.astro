@@ -23,9 +23,3 @@ const socialImage = new URL('/og.png', Astro.site);
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Rubik:wght@500;600&display=swap" rel="stylesheet" />
-<script is:inline>
-	const getThemePreference = () => localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-	document.documentElement.classList.toggle('theme-dark', getThemePreference() === 'dark');
-	const observer = new MutationObserver(() => localStorage.setItem('theme', document.documentElement.classList.contains('theme-dark') ? 'dark' : 'light'));
-	observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
-</script>
