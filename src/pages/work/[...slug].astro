@@ -11,13 +11,11 @@ export async function getStaticPaths() {
 }
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const categoryUrl = entry.data.category === 'ai' ? '/ai-automations/' : '/finance/';
-const categoryLabel = entry.data.category === 'ai' ? 'AI & Automations' : 'Finance';
 ---
 <BaseLayout title={`${entry.data.title} · Jeremy Tan`} description={entry.data.description}>
 	<div class="stack gap-20">
 		<div class="stack gap-15">
-			<header><div class="wrapper stack gap-2"><a class="back-link" href={categoryUrl}><Icon icon="arrow-left" /> {categoryLabel}</a><Hero title={entry.data.title} align="start"><div class="details"><div class="tags">{entry.data.tags.map((tag) => <Pill>{tag}</Pill>)}{entry.data.status && <Pill>{entry.data.status}</Pill>}</div><p class="description">{entry.data.description}</p></div></Hero></div></header>
+			<header><div class="wrapper stack gap-2"><a class="back-link" href="/"><Icon icon="arrow-left" /> All projects</a><Hero title={entry.data.title} align="start"><div class="details"><div class="tags">{entry.data.tags.map((tag) => <Pill>{tag}</Pill>)}{entry.data.status && <Pill>{entry.data.status}</Pill>}</div><p class="description">{entry.data.description}</p></div></Hero></div></header>
 			<main class="wrapper"><article class="stack gap-10 content">{entry.data.img && <img class="cover" src={entry.data.img} alt={entry.data.img_alt || ''} />}<div class="prose"><Content /></div></article></main>
 		</div>
 	</div>

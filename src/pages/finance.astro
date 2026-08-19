@@ -1,6 +1,0 @@
----
-import { getCollection } from 'astro:content';
-import Grid from '../components/Grid.astro'; import Hero from '../components/Hero.astro'; import PortfolioPreview from '../components/PortfolioPreview.astro'; import BaseLayout from '../layouts/BaseLayout.astro';
-const projects = (await getCollection('work')).filter((p) => p.data.category === 'finance').sort((a, b) => a.data.order - b.data.order);
----
-<BaseLayout title="Finance · Jeremy Tan" description="Trading systems and financial research projects by Jeremy Tan."><div class="stack gap-20"><main class="wrapper stack gap-8"><Hero title="Finance" tagline="Research tools and systematic strategies built to move from a hypothesis to evidence, then into live markets." align="start" /><Grid>{projects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid></main></div></BaseLayout>
