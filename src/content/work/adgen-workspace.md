@@ -5,7 +5,8 @@ publishDate: 2026-08-06
 category: ai
 order: 1
 tags: [AI, Automation, Creative tooling]
-img: /img/adgen-excalidraw.png
+img: /img/adgen-workspace.png
+img_alt: AdGen workspace showing a creative variation tree alongside generated ad images and copy.
 ---
 
 ## Multi-agent architecture
