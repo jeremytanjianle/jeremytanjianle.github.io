@@ -1,12 +1,22 @@
 ---
 title: Live Trading
-description: Personal trading systems with verified returns of 34% over 12 months and a measured drawdown of approximately 6.5%.
+description: Live systematic trading with a 64.74% cumulative time-weighted return and 6.80% maximum drawdown.
 publishDate: 2025-01-01
 category: finance
 order: 2
 tags: [Systematic trading, Execution, Risk]
-img: /img/LiveTradingResults.png
-img_alt: Verified live trading performance results.
+img: /img/live-trading-broker-1164.png
+img_alt: Broker account performance snapshot showing a 64.20% return.
 ---
 
-Personal trading systems achieved verified returns of **34% over a 12-month period**, with a profit factor of **1.34** and a drawdown of approximately **6.5%**.
+*Broker account performance snapshot — quick supporting evidence. The broker displays a 64.20% return separately from the Portfolio Performance results below.*
+
+## Performance results
+
+From **May 2025 to May 2026**, my live systematic trading portfolio achieved a **64.74% cumulative time-weighted return**, with a **6.80% maximum drawdown**.
+
+Results are calculated in **Portfolio Performance** and verified on third-party platforms.
+
+![Portfolio Performance report showing cumulative time-weighted return of 64.74% and maximum drawdown of 6.80%.](/img/live-trading-performance-935.png)
+
+*Portfolio Performance report for May 2025–May 2026.*

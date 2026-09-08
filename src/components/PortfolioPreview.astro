@@ -23,6 +23,7 @@ const { data, id } = Astro.props.project as CollectionEntry<'work'>;
 	.card:hover, .card:focus { border-color: var(--accent-regular); }
 	.visual { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: var(--gray-900); border-bottom: 1px solid var(--gray-800); }
 	.visual img { width: 100%; height: 100%; object-fit: cover; }
+	.visual img[src="/img/live-trading-broker-1164.png"] { object-fit: contain; background: white; }
 	.abstract { display: grid; place-items: center; background: var(--gray-900); }
 	.signal { position: absolute; inset: 16%; border: 1px solid var(--gray-700); }
 	.monogram { position: relative; font-family: var(--font-brand); font-size: clamp(3rem, 8vw, 5rem); font-weight: 600; color: var(--accent-regular); letter-spacing: -.08em; }
