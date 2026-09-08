@@ -13,8 +13,8 @@ const financeProjects = projects.filter((project) => project.data.category === '
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero-shell">
 				<div class="overview">
-					<p class="intro">Hi there, I’m Jeremy.<br />I build meaningful business automations.</p>
-					<p class="tech-stack">Languages: Python, C#<br />Databases: Elasticsearch, MongoDB, PostgreSQL<br />Cloud: Google Cloud, Azure, Cloudflare, Docker<br />GenAI: LangChain, LlamaIndex, Inngest, Pydantic AI</p>
+					<p class="intro">Hi there, I’m Jeremy.<br />I build business automations and quantitative trading systems.</p>
+					<p class="tech-stack">Languages: Python, C#<br />Databases: Elasticsearch, MongoDB, PostgreSQL<br />Cloud: GCP, Cloudflare, Runpod, Docker<br />GenAI: LangChain, LlamaIndex, Inngest, Pydantic AI<br />Finance: zipline/alphalens-reloaded, vectorBT.pro, FinancialModellingPrep</p>
 				</div>
 				<div class="portrait"><img alt="Jeremy Tan" width="480" height="620" src="/img/1st%20dp.jpg" /></div>
 			</header>
@@ -22,12 +22,12 @@ const financeProjects = projects.filter((project) => project.data.category === '
 
 		<main class="wrapper stack gap-20 lg:gap-30">
 			<section class="section">
-				<header class="section-header"><div><h2><span class="section-number">01 ·</span> AI & Automations</h2><p class="section-summary">Tirelessly supporting real businesses.</p></div></header>
-				<Grid>{aiProjects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid>
+				<header class="section-header"><div><h2><span class="section-number">01 ·</span> Finance</h2><p class="section-summary">Research to production-grade deployments</p></div></header>
+				<Grid>{financeProjects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid>
 			</section>
 			<section class="section">
-				<header class="section-header"><div><h2><span class="section-number">02 ·</span> Finance</h2><p class="section-summary">Research to live systems</p></div></header>
-				<Grid>{financeProjects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid>
+				<header class="section-header"><div><h2><span class="section-number">02 ·</span> AI & Automations</h2><p class="section-summary">Real business tools &amp; automations</p></div></header>
+				<Grid>{aiProjects.map((project) => <li><PortfolioPreview project={project} /></li>)}</Grid>
 			</section>
 		</main>
 	</div>
