@@ -5,7 +5,7 @@ publishDate: 2026-08-06
 category: finance
 order: 3
 tags: [Agents, Quant research, Automation]
-img: /img/self-driving-hedge-fund-architecture.svg
+img: /img/self-driving-hedge-fund-architecture.svg?v=079e5c8d7c67
 img_alt: Architecture of the self-driving hedge fund, showing human oversight across data engineering, research, deployment and post-processing agents.
 ---
 
