@@ -1,7 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 const { data, id } = Astro.props.project as CollectionEntry<'work'>;
-const categoryLabel = data.category === 'ai' ? 'AI & Automations' : 'Finance';
 ---
 
 <a class="card" href={`/work/${id}/`}>
@@ -14,7 +13,6 @@ const categoryLabel = data.category === 'ai' ? 'AI & Automations' : 'Finance';
 		)}
 	</div>
 	<div class="meta">
-		<div class="eyebrow"><span>{categoryLabel}</span>{data.status && <span class="status">{data.status}</span>}</div>
 		<h3>{data.title}</h3>
 		<p>{data.description}</p>
 	</div>
@@ -29,8 +27,6 @@ const categoryLabel = data.category === 'ai' ? 'AI & Automations' : 'Finance';
 	.signal { position: absolute; inset: 16%; border: 1px solid var(--gray-700); }
 	.monogram { position: relative; font-family: var(--font-brand); font-size: clamp(3rem, 8vw, 5rem); font-weight: 600; color: var(--accent-regular); letter-spacing: -.08em; }
 	.meta { display: flex; flex: 1; flex-direction: column; gap: .65rem; padding: 1.25rem; }
-	.eyebrow { display: flex; align-items: center; justify-content: space-between; gap: 1rem; color: var(--gray-400); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
-	.status { color: var(--accent-dark); }
 	h3 { font-size: var(--text-xl); color: var(--gray-0); }
 	p { color: var(--gray-300); }
 </style>
