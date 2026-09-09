@@ -1,6 +1,6 @@
 ---
 title: Live Trading
-description: Live systematic trading with a 64.74% cumulative time-weighted return and 6.80% maximum drawdown.
+description: Live systematic trading with a ~64% cumulative time-weighted return and 6.8% maximum drawdown.
 publishDate: 2025-01-01
 category: finance
 order: 2
