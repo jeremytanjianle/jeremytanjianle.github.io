@@ -13,7 +13,7 @@ img_alt: Broker account performance snapshot showing a 64.20% return.
 
 ## Performance results
 
-From **May 2025 to May 2026**, my live systematic trading portfolio achieved a **64.74% cumulative time-weighted return**, with a **6.80% maximum drawdown**.
+Live systematic trading portfolio achieved a **64.74% cumulative time-weighted return**, with a **6.80% maximum drawdown**.
 
 Results are calculated in **Portfolio Performance** and verified on third-party platforms.
 
