@@ -9,7 +9,7 @@ img: /img/live-trading-broker-1164.png
 img_alt: Broker account performance snapshot showing a 64.20% return.
 ---
 
-*Broker account performance snapshot — quick supporting evidence. The broker displays a 64.20% return separately from the Portfolio Performance results below.*
+*Broker account performance snapshot — quick supporting evidence.*
 
 ## Performance results
 
