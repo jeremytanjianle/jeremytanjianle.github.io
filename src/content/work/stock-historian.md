@@ -1,6 +1,6 @@
 ---
 title: Stock Historian
-description: Masters-level research into extracting historical cause and effect from financial events to help navigate the future.
+description: RAG-driven investing before it was cool
 publishDate: 2023-01-01
 category: finance
 status: Research
